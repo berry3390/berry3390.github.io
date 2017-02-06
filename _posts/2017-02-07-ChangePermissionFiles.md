@@ -62,34 +62,13 @@ chown -v -R :group1 ./
  
 ## 소스폴더에 있는 것들 한 명령어로 한번에 같은 권한으로 수정
 - -R 
-  - L : 모든 파일 변경
-  - H :
-  - P :
+  - -L : 모든 파일 변경.
+  - -H : symbolic links on the command line are followed.  
+        (Symbolic links encountered in the tree traversal are not followed.)
+  - -P : no symbolic links are followed.
+        Instead, the user and/or group ID of the link itself are modified.
+        This is the default. Use -h to change the user ID and/or the group of symbolic links.
 - chmod -v -R -L 700 ./
-```
-     -f      Don't report any failure to change file owner or group, nor modify
-             the exit status to reflect such failures.
-
-     -H      If the -R option is specified, symbolic links on the command line
-             are followed.  (Symbolic links encountered in the tree traversal are
-             not followed.)
-
-     -h      If the file is a symbolic link, change the user ID and/or the group
-             ID of the link itself.
-
-     -L      If the -R option is specified, all symbolic links are followed.
-
-     -P      If the -R option is specified, no symbolic links are followed.
-             Instead, the user and/or group ID of the link itself are modified.
-             This is the default. Use -h to change the user ID and/or the group
-             of symbolic links.
-
-     -R      Change the user ID and/or the group ID for the file hierarchies
-             rooted in the files instead of just the files themselves.
-
-     -v      Cause chown to be verbose, showing files as the owner is modified.
-     ```
-
 
 ## ssh접속하기
 ```
