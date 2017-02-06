@@ -62,7 +62,7 @@ chown -v -R :group1 ./
  
 ## 소스폴더에 있는 것들 한 명령어로 한번에 같은 권한으로 수정
 - -R 
-  - -L : 모든 파일 변경.
+  - -L : all symbolic links are followed.
   - -H : symbolic links on the command line are followed.  
         (Symbolic links encountered in the tree traversal are not followed.)
   - -P : no symbolic links are followed.
