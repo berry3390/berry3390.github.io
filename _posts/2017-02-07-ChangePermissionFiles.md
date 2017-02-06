@@ -61,13 +61,15 @@ chown -v -R :group1 ./
  = 1 + 2 + 4 = 7
  
 ## 소스폴더에 있는 것들 한 명령어로 한번에 같은 권한으로 수정
-- -R 
-  - -L : all symbolic links are followed.
-  - -H : symbolic links on the command line are followed.  
-        (Symbolic links encountered in the tree traversal are not followed.)
-  - -P : no symbolic links are followed.
+- `-R` 
+  - `-L`: all symbolic links are followed.
+  - `-H`: symbolic links on the command line are followed.  
+        Symbolic links encountered in the tree traversal are not followed.
+  - `-P`: no symbolic links are followed.
         Instead, the user and/or group ID of the link itself are modified.
         This is the default. Use -h to change the user ID and/or the group of symbolic links.
+  - symbolic links: 윈도우의 바로가기, 맥의 가상본 
+  - ***Note:** 옵션 H와 P의 차이
 - chmod -v -R -L 700 ./
 
 ## ssh접속하기
