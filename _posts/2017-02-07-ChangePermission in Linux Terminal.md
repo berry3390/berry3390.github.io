@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 
+title: ChangePermission in Linux Terminal
 ---
+
 ### 터미널 사용법
 - 기본 권한  
   - sudo : 관리자
