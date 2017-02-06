@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ChangePermission in Linux Terminal
+title: ChangePermissionFiles
 ---
 
 ### 터미널 사용법
