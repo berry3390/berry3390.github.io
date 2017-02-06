@@ -69,7 +69,7 @@ chown -v -R :group1 ./
         Instead, the user and/or group ID of the link itself are modified.
         This is the default. Use -h to change the user ID and/or the group of symbolic links.
   - symbolic links: 윈도우의 바로가기, 맥의 가상본 
-  - ***Note:** 옵션 H와 P의 차이
+  - **Note:** 옵션 H와 P의 차이
 - chmod -v -R -L 700 ./
 
 ## ssh접속하기
