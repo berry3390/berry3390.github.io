@@ -3,6 +3,8 @@ layout: post
 title: ChangePermissionFiles
 ---
 
+# 파일 권한 변경하기 
+
 ### 터미널 사용법
 - 기본 권한  
   - sudo : 관리자
