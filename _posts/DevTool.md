@@ -32,12 +32,13 @@ export NVM_DIR="/Users/name/.nvm"
 2. 해당 프로젝트로 이동
 3. eslint --init
 4. popular, AirBnb, react N, JSON
-5. atom eslint package install 
+5. atom eslint package install
 
 
 
 ### Test Tool
 - mocha
+npm install mocha --save-dev
 - sinon
 - should
 - should-sinon
