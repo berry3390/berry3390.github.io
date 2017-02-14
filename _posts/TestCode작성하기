@@ -4,8 +4,23 @@
 - mocha
 - sinon
 - should 
+- should-sinon
+
+
+
+### install 
+
+### install eslint
+
 
 ### 작성방식 
-- route
+- TDD 방법론 
+
+
+- route 
+  - just api and parameter
 - model
+  - just db and db's parameter 
 - service
+  - all test 
+  
